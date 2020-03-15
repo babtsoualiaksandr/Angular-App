@@ -7,11 +7,11 @@ export enum EConfigActions {
 }
 
 export class GetConfig implements Action {
-  public readonly type: EConfigActions.GetConfig;
+  public readonly type: string = EConfigActions.GetConfig;
 }
 
 export class GetConfigSuccess implements Action {
-  public readonly type: EConfigActions.GetConfigSuccess;
+  public readonly type: string = EConfigActions.GetConfigSuccess;
   constructor(public payload: IConfig) {}
 }
 
