@@ -127,6 +127,7 @@
   },
   "defaultProject": "appRedux",
   "cli": {
-    "analytics": "b4cfad94-50f5-4956-ac37-77da75acc617"
+    "defaultCollection": "@ngrx/schematics",
+    "analytics": "0cfd3824-ed70-4f19-92a5-e1657beaf196"
   }
 }
